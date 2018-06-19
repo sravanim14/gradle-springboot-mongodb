@@ -31,9 +31,9 @@ node {
           repository: 'gradle-springboot-repo',
           credentialsId: 'nexus-admin-creds',
           artifacts: [
-            [artifactId: 'springbootapp-pipeline',
+            [artifactId: 'springbootapp',
             classifier: '',
-            file: 'build/libs/springbootapp-pipeline-0.0.1-SNAPSHOT.jar',
+            file: 'build/libs/springbootapp-0.0.1-SNAPSHOT.jar',
             type: 'jar']
           ]  
         )  
