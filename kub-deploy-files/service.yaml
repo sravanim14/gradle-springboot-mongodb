@@ -8,5 +8,5 @@ spec:
       targetPort: 8080
       nodePort: 30036
   selector:
-    app: spring-boot-service
+    app: spring-boot-app
   type: NodePort

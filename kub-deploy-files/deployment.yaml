@@ -1,16 +1,16 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  name: spring-boot-service-deployment
+  name: spring-boot-deployment
 spec:
   replicas: 3 # tells deployment to run 3 pods matching the template
   template: # create pods using pod definition in this template
     metadata:
       labels:
-        app: spring-boot-service
+        app: spring-boot-app
     spec:
       containers:
-      - name: spring-boot-service
+      - name: spring-boot-app
         image: sravanimadireddy/springboot-restapi:v1.0
         ports:
         - containerPort: 8080
