@@ -43,7 +43,7 @@ html.destination file("${buildDir}/jacocoHtml")
 }
 
 jar {
-// baseName "springbootapp"
+   baseName "springbootapp"
    manifest {
       attributes 'Main-Class': 'com.spring.restapi.RestapiApplication'
    }
