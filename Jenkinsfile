@@ -42,10 +42,10 @@ node {
    
    stage ('Docker Build') {
     if (isUnix()) {
-      sh 'docker build -t sravanimadireddy/springboot-restapi:latest .'
+      sh 'docker build -t sravanimadireddy/springboot-restapi:v1.0 .'
     } 
     else {
-      bat 'docker build -t sravanimadireddy/springboot-restapi:latest .'
+      bat 'docker build -t sravanimadireddy/springboot-restapi:v1.0 .'
     }
    }
    

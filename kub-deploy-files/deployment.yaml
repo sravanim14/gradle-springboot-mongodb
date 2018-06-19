@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-service
-        image: sravanimadireddy/springboot-restapi:latest
+        image: sravanimadireddy/springboot-restapi:v1.0
         ports:
         - containerPort: 8080
         env:
